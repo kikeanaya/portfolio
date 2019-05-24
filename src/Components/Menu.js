@@ -1,13 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
 
     return (
         <div className="header">
-            <h1>Enrique Anaya</h1>
+            <Link to={`/`}><h1>Enrique Anaya</h1></Link>
             <ul className="nav-bar">
-                <li>Work</li>
-                <li>Contact</li>
+                <Link to={`/work/`}><li>Work</li></Link>
+                <Link to={`/contact/`}><li>Contact</li></Link>
             </ul>
         </div>
     )

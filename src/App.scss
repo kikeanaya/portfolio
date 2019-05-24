@@ -32,6 +32,11 @@ time, mark, audio, video {
   padding: 10px 60px;
   display: flex;
   justify-content: space-between;
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
 }
 
 .nav-bar{
@@ -45,9 +50,10 @@ time, mark, audio, video {
   li{
     margin: 0px 10px;
   }
-
+  
   li:hover{
     font-weight: bold;
+    cursor: pointer;
   }
 }
 
