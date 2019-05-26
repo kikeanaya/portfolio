@@ -111,5 +111,19 @@ time, mark, audio, video {
 
 .image-project{
   width: 50%;
-  background-color: blue;
+  background-color: aqua;
+
+  img{
+    width: 100%;
+  }
+}
+
+.contact{
+  height: calc(100vh - 60px);
+  background-color: lightcyan;
+}
+
+.footer{
+  height: 100px;
+  background-color: deeppink;
 }

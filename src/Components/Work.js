@@ -1,4 +1,8 @@
 import React from 'react';
+import webshop from '../Images/webshop.png'
+import daily from '../Images/daily.png'
+import planazo from '../Images/planazo.png'
+
 
 const Work = () => {
 
@@ -22,11 +26,13 @@ const Work = () => {
                 </div>
 
                 <div className="image-project">
+                    <img src={webshop} alt="webshop"/>
                 </div>
             </div>
 
             <div className="project-wrapper">
                 <div className="image-project">
+                    <img src={daily} alt="daily"/>
                 </div>
                 <div className="info-project">
                     <h3>DAILY TOOLS</h3>
@@ -63,6 +69,7 @@ const Work = () => {
                 </div>
 
                 <div className="image-project">
+                    <img src={planazo} alt="planazo"/>
                 </div>
             </div>
         </div>

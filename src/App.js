@@ -5,6 +5,7 @@ import './App.scss';
 import Home from './Components/Home';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Route exact path='/work/' render={() => <Work/>}/>
         <Route exact path='/contact/' render={() => <Contact/>}/>
       </Switch>
+      <Footer/>
+
     </div>
   );
 }
